@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Corona Social",
+    "slug": "coronaApp",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "primaryColor": "#2980b9",
+    "androidStatusBarColor": "#2980b9",
+    "androidStatusBar": {
+      "backgroundColor": "#2980b9",
+      "barStyle": "dark-content"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.wolfpack.corona"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
